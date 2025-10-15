@@ -62,7 +62,7 @@ To run a local copy of Rice Clicker for development or testing, follow these ste
     Bash
     
     ```
-    git clone https://github.com/S-poony/Rice-Clicker.git
+    git clone https://github.com/S-poony/Rice-Clicker-DEMO-REPOSITORY.git
     ```
     
 2. Navigate to the project directory:
