@@ -60,7 +60,7 @@
       "scripts": {
             "dev": "vite",
             "build": "vite build",
-            "predeploy": "npm run build",
+            "predeploy": "npm run build && echo > build/.nojekyll",
             "deploy": "gh-pages -d build -b gh-pages -r https://github.com/S-poony/Rice-Clicker-DEMO-REPOSITORY.git"
       }
 }
