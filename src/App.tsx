@@ -14,7 +14,7 @@ import { Header } from "./components/ui/dialog";
 // Simulation Constants
 const HARVEST_WEEK = 12;
 const INVASION_WEEK = 2;
-const POPULATION_RANDOMNESS = .5; // 0 = no randomness, 0.1 = ±10%, 0.2 = ±20%, etc.
+const POPULATION_RANDOMNESS = 0; // 0 = no randomness, 0.1 = ±10%, 0.2 = ±20%, etc.
 const cropsPerLayer = 30;
 const GRID_WIDTH = 10;
 const GRID_HEIGHT = 10;
@@ -660,9 +660,6 @@ export default function App() {
                 </CardHeader>
                 <CardContent style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' /* space-y-2 */ }}>
                   <Button onClick={showRandomTip}>Get a Tip</Button>
-                  <p style={{ fontSize: '0.875rem', textAlign: 'center', color: '#6b7280', paddingTop: '0.5rem' /* text-sm text-center text-muted-foreground pt-2 */ }}>
-                    Want to learn more? Visit the <a href="https://github.com/S-poony/Rice-Clicker" style={{ textDecoration: 'underline' }}>project repository</a>.
-                  </p>
                 </CardContent>
               </Card>
 
