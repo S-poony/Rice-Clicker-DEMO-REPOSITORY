@@ -55,6 +55,11 @@
   {
     "title": "Tip",
     "content": "The best methods to defend against bio agressors are preventive ones"
+  },
+
+  {
+    "title": "Tip",
+    "content": "The grid represents the health of your field. Where you remove layers has no impact on the simulation"
   }
 
 ]

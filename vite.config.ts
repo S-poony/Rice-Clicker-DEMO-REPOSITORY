@@ -4,7 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
-    base: '/Rice-Clicker/',
+    base: "/Rice-Clicker-DEMO-REPOSITORY/",
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
