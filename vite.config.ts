@@ -3,8 +3,12 @@
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
 
+  const base = process.env.NODE_ENV === 'production'
+  ? '/Rice-Clicker-DEMO-REPOSITORY/'
+  : '/'
+
   export default defineConfig({
-    base: "/Rice-Clicker-DEMO-REPOSITORY/",
+    base,
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
