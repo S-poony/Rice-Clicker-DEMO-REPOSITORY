@@ -14,7 +14,7 @@ export function Scoreboard({ score, pesticideSprayCount }: ScoreboardProps) {
       <CardContent className="space-y-4">
         <div className="flex justify-between">
           <p className="font-medium">Potential Yield:</p>
-          <p className="text-lg font-bold">{score.toFixed(0)}</p>
+          <p className="text-lg font-bold">{score.toFixed(2)}</p>
         </div>
         <div className="flex justify-between">
           <p className="font-medium">Pesticide Sprays:</p>
